@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5079
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ailurus.Kms.Api", "src\Ailurus.Kms.Api\Ailurus.Kms.Api.csproj", "{99DA9C4A-74A2-430F-975A-F8F81926D998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ailurus.Kms.Domain", "src\Ailurus.Kms.Domain\Ailurus.Kms.Domain.csproj", "{CDD26684-5334-412A-AEC9-E562B0E2FEDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{99DA9C4A-74A2-430F-975A-F8F81926D998} = {83805931-162B-48C9-84D1-AA57E440A75C}
+		{CDD26684-5334-412A-AEC9-E562B0E2FEDF} = {83805931-162B-48C9-84D1-AA57E440A75C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{99DA9C4A-74A2-430F-975A-F8F81926D998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99DA9C4A-74A2-430F-975A-F8F81926D998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99DA9C4A-74A2-430F-975A-F8F81926D998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99DA9C4A-74A2-430F-975A-F8F81926D998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD26684-5334-412A-AEC9-E562B0E2FEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD26684-5334-412A-AEC9-E562B0E2FEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD26684-5334-412A-AEC9-E562B0E2FEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD26684-5334-412A-AEC9-E562B0E2FEDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
