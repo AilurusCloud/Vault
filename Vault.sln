@@ -1,8 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{83805931-162B-48C9-84D1-AA57E440A75C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{50792832-35AD-45ED-99B8-B0FCC1888794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ailurus.Vault.Api", "Source\Ailurus.Vault.Api\Ailurus.Vault.Api.csproj", "{3F11FB08-20EE-4761-AEE9-911FC201CB88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F11FB08-20EE-4761-AEE9-911FC201CB88} = {83805931-162B-48C9-84D1-AA57E440A75C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F11FB08-20EE-4761-AEE9-911FC201CB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F11FB08-20EE-4761-AEE9-911FC201CB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F11FB08-20EE-4761-AEE9-911FC201CB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F11FB08-20EE-4761-AEE9-911FC201CB88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
