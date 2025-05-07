@@ -1,4 +1,4 @@
-namespace Ailurus.Vault.Api;
+namespace Ailurus.Kms.Api;
 
 public abstract class Program
 {
